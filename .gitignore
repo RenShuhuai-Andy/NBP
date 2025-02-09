@@ -1,0 +1,17 @@
+__pycache__/
+**/__pycache__/
+lightning_logs/
+.ipynb_checkpoints/
+*.mp4
+*.egg-info
+jobs
+core
+.pyc
+.idea/
+output*
+.DS_Store
+
+ckpts_pub/
+ckpts*
+visualizations/
+annotations/
