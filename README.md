@@ -12,7 +12,7 @@ Official pytorch implementation of the following paper:
 </p>
 
 <p align="left">
-    <img src=assets/framework.png width="852" height="200" />
+    <img src=assets/framework.png width="852" height="300" />
 </p>
 
 
@@ -73,7 +73,7 @@ NBP/
 
 ## Model Zoo for Video Tokenizer
 <p align="left">
-    <img src=assets/tokenizer.png width="852" height="350" />
+    <img src=assets/tokenizer.png width="852" height="450" />
 </p>
 We reproduce closed-source MAGVITv2 as our video tokenizer. In contrast to the official implementation, which utilizes LFQ as its quantizer, we adopt FSQ due to its simplicity and reduced number of loss functions and hyper-parameters. Following the original paper's recommendations, we set the FSQ levels to $[8, 8, 8, 5, 5, 5]$, and the size of the visual vocabulary is 64K. 
 Moreover, we employ PatchGAN instead of StyleGAN to enhance training stability.
