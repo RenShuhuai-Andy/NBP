@@ -53,12 +53,6 @@ NBP/
                 |-- train/
                 |-- val/
                 |-- test/
-    
-    annotations/
-    |-- ucf_train.txt
-    |-- ucf_val.txt
-    |-- k600_train.txt
-    |-- k600_val.txt
 
     ckpt/
     |–– NBP-ucf-base/
