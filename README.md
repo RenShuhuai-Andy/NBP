@@ -32,6 +32,8 @@ Please refer to our [project page](https://RenShuhuai-Andy.github.io/NBP-project
 Please setup the environment using the following commands:
 
 ```
+conda create -n nbp python=3.9
+conda activate nbp
 sh setup.sh
 ```
 
