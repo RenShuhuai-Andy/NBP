@@ -36,7 +36,7 @@ sh setup.sh
 ```
 
 ### Data & Model
-Download the datasets from the official websites. You can download the [annotation.zip](https://huggingface.co/Daniel0724/OmniTokenizer/resolve/main/annotations.zip) processed by us and put them under ```./annotations```. 
+Download the datasets from the official websites. 
 
 The file structure should look like:
 
@@ -73,7 +73,7 @@ NBP/
 
 ## Model Zoo for Video Tokenizer
 <p align="left">
-    <img src=assets/tokenizer.png width="750" height="400" />
+    <img src=assets/tokenizer.png width="700" height="400" />
 </p>
 We reproduce closed-source MAGVITv2 as our video tokenizer. In contrast to the official implementation, which utilizes LFQ as its quantizer, we adopt FSQ due to its simplicity and reduced number of loss functions and hyper-parameters. Following the original paper's recommendations, we set the FSQ levels to $[8, 8, 8, 5, 5, 5]$, and the size of the visual vocabulary is 64K. 
 Moreover, we employ PatchGAN instead of StyleGAN to enhance training stability.
