@@ -137,7 +137,6 @@ def main():
 
     print(f"Train from the version: {version_id_used}.")
 
-    # wandb.login(key='b905e749b1ed506f76e7f1e36142c5612ad43628')
     os.makedirs(args.default_root_dir, exist_ok=True)
     wandb_logger = WandbLogger(project="nbp", name=os.path.basename(args.default_root_dir), save_dir=args.default_root_dir, config=args, version=version_id_used, offline=True)
     trainer = pl.Trainer.from_argparse_args(args, log_every_n_steps=49, logger=wandb_logger, callbacks=callbacks,
