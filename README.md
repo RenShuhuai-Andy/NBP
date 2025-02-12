@@ -1,8 +1,12 @@
 # Next Block Prediction: Video Generation via Semi-Autoregressive Modeling
 
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2412.15119-b31b1b.svg)](https://arxiv.org/abs/2502.07737)&nbsp;
+[![project page](https://img.shields.io/badge/Project_page-More_demo-green)](https://RenShuhuai-Andy.github.io/NBP-project/)&nbsp;
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-blue)](https://huggingface.co/collections/ShuhuaiRen/next-block-prediction-6706660de8bff30c00e8ce95)&nbsp;
+
 Official pytorch implementation of the following paper:
 <p align="left"> 
-<a href="https://arxiv.org/">Next Block Prediction: Video Generation via Semi-Autoregressive Modeling</a>.
+<a href="https://arxiv.org/abs/2502.07737">Next Block Prediction: Video Generation via Semi-Autoregressive Modeling</a>.
 <br>
 <br>
 <a href="https://renshuhuai-andy.github.io/">Shuhuai Ren</a><sup>1</sup>, <a href="https://www.microsoft.com/en-us/research/people/shumma/">Shuming Ma</a><sup>2</sup>, <a href="https://xusun26.github.io/">Xu Sun</a><sup>1</sup>, <a href="https://thegenerality.com/">Furu Wei</a><sup>2</sup>
@@ -24,7 +28,6 @@ This framework features the following properties:
 - ⚡ By predicting multiple tokens in parallel, NBP models significantly reduce the number of generation steps, leading to **11x** faster inference; 
 - 🥇 **State-of-the-art generation performance** on video datasets compared to AR-based models;
 
-Please refer to our [project page](https://RenShuhuai-Andy.github.io/NBP-project/) for the reconstruction and generation results by OmniTokenizer.
 
 ## Setup
 
